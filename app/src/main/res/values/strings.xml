@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notzy</string>
+    <string name="note_title">Başlık</string>
+    <string name="note_content">İçerik</string>
+    <string name="add_note">Not Ekle</string>
+    <string name="camera_ocr">Kamera ile Tarama</string>
+    <string name="edit_note">Notu Düzenle</string>
+    <string name="delete_note">Notu Sil</string>
+    <string name="delete_note_message">Bu notu silmek istediğinizden emin misiniz?</string>
+    <string name="delete">Sil</string>
+    <string name="cancel">İptal</string>
+    <string name="settings">Ayarlar</string>
+    <string name="capture_image">Görüntü Yakala</string>
+    <string name="position_text">Metni çerçeveye alın</string>
+    <string name="back">Geri</string>
+    <string name="untitled">Başlıksız</string>
+    <string name="no_text_detected">Metin algılanamadı</string>
+    <string name="permissions_not_granted">Gerekli izinler verilmedi</string>
+    <string name="choose_theme">Tema Seçin</string>
+    <string name="choose_language">Dil Seçin</string>
+    <string name="theme_light" translatable="false">Açık Tema</string>
+    <string name="theme_dark">Koyu Tema</string>
+    <string name="theme_system">Sistem Teması</string>
+</resources>
