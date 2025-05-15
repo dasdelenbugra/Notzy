@@ -37,6 +37,11 @@ class NoteDetailActivity : AppCompatActivity() {
             loadNote(currentNoteId)
         }
 
+        val recognizedTxt = intent.getStringExtra("ocr_text")
+        if (recognizedTxt != null) {
+            binding.editTextContent.setText(recognizedTxt)
+        }
+
         binding.toolbar.setNavigationOnClickListener {
             saveNote()
             finish()

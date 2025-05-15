@@ -100,16 +100,6 @@ class OcrCaptureActivity : AppCompatActivity() {
                 this, "Text recognition failed: ${e.message}", Toast.LENGTH_SHORT
             ).show()
             imageProxy.close()
-        }.addOnCanceledListener {
-            Toast.makeText(
-                this, "Text recognition canceled", Toast.LENGTH_SHORT
-            ).show()
-            imageProxy.close()
-        }.addOnCompleteListener {
-            Toast.makeText(
-                this, "Text recognition completed", Toast.LENGTH_SHORT
-            ).show()
-            imageProxy.close()
         }
     }
 
